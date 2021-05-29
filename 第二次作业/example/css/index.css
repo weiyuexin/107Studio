@@ -1,0 +1,281 @@
+/********************
+*水平有限，仅供参考
+*By 107网站工作室
+********************/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 1200px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration-line: none;
+    color:rgb(27,189,157);
+}
+
+/* Header Start */
+.header{
+    width:100%;
+    height:60px; 
+    border-bottom:0.1px solid #ddd; 
+}
+.header .headerContent{
+    width:1200px;
+    height:60px;
+    margin:0 auto;
+}
+.header .logo{
+    width:200px;
+    height:60px;
+    float:left;
+}
+.header .logo img{
+    width:200px;
+    height:60px;
+}
+.header .menu{
+    height:60px;
+    float:left;
+}
+.header .menu ul{
+    height:60px;
+}
+.header .menu ul li{
+    float:left;
+    line-height: 60px;
+}
+.header .menu ul li a{
+    padding:10px 13px;
+    font-size: 15px;
+    color:#555;
+}
+.header .menu ul li a img{
+    width:15px;
+    height:11px;
+}
+.header .rightMenu{
+    width:150px;
+    float:right;
+    text-align: center;
+}
+.header .rightMenu .register,.login{
+    float:left; 
+}
+.header .rightMenu a{
+    height:34px;
+    color:black;
+    line-height: 60px;
+    padding:6px 15px;
+}
+.header .rightMenu .active{
+    background-color: #29CEAD;
+    border-radius: 4px;
+    color:#fff;
+}
+/* Header End */
+
+/* Content Start */
+.content{
+    width:100%;
+    height:550px;
+}
+.loginContent{
+    width:520px;
+    height:490px;
+    margin:70px auto;
+    border:1px solid #eee;
+    overflow: hidden;
+}
+.idLogin{
+    width:410px;
+    height:305px;
+    margin:0 auto;
+}
+.loginHeader{
+    height:60px;
+    margin-top: 25px;
+}
+.loginHeader h2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.loginHeader p{
+    float:right;
+    color:grey;
+    font-size: 14px;
+}
+.loginByEmail input{
+    width:400px;
+    height:37px;
+    margin-top: 28px;
+    padding-left: 10px;
+    background-color: rgba(248,248,248,1);
+    border:1px solid #eee;
+}
+.idLogin .submit{
+    height:41px;
+    width:410px;
+    margin-top: 28px;
+    background-color: rgb(27,189,157);
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.otherContent a{
+    color:rgb(27,189,157);
+    font-size: 14px;
+}
+.otherContent a:nth-child(2){
+    float:right;
+}
+.thirdPartLogin{
+    height:140px;
+    width:100%;
+    margin:25px auto;
+    background-color: rgb(248,249,249);
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+.thirdPartLogin p{
+    padding-top: 18px;
+    color:#aaa;
+    font-size: 14.5px;
+}
+.qqGithub{
+    width:170px;
+    margin:15px auto;
+    font-size: 14px;
+    color:#aaa;
+}
+.qq{
+    width:50px;
+    height:100px;
+    float:left;
+}
+.qq span{
+    width:50px;
+}
+.github{
+    width:50px;
+    float:right;
+}
+/* Content End */
+
+/* Footer Start */
+.footer{
+    width:100%;
+    background-color: #2f2f2f;
+    height:400px;
+}
+.footerContent{
+    width:1150px;
+    height:340px;
+    margin:0 auto;
+    padding-top: 60px;
+}
+.footerTop{
+    height:250px;
+}
+.footerLogo{
+    width:300px;
+    height:250px;
+    float:left; 
+    margin-right: 100px;
+}
+.footerLogo p:nth-child(1) img{
+    width:250px;
+    height:90px;
+}
+.footerLogo p:nth-child(2){
+    margin-top: 8px;
+    width: 240px;
+    float:right;
+}
+.footerLogo p:nth{
+    width:50px;
+    margin-left: 25px;
+}
+.about,.service,.language{
+    width:245px;
+    height:250px;
+    float:left;
+}
+.asl p{
+    width:100%;
+    color:#fff;
+    text-align:left;
+    margin-bottom: 10px;
+}
+.asl p span{
+    border-bottom: 2px solid #1abc9c;
+    padding: 5px 0;
+}
+.asl ul{
+    text-align: left;
+    margin: 20px 0 0;
+    padding: 0;
+    width: 40%;
+    float: left;
+}
+.asl ul li{
+    line-height: 26px;
+}
+.asl ul a{
+    color:grey;
+    font-size: 14px;
+}
+.wxzh{
+    margin-top: 98px;
+    width: 128px;
+}
+.wxzh img{
+    width:35px;
+}
+.footerBottom{
+    width: 1170px;
+    height:70px;
+    margin:0 auto;
+    border-top: 1px solid #3a3a3a;
+    padding-top: 15px;
+}
+.footerBottom p{
+    line-height: 30px;
+    color:#555555;
+    font-size: 14px;
+}
+/* Footer End */
+
+/* Advice Start */
+.advice{
+    width: 20px;
+    height: 100px;
+    background: url(../images/zixun.png) no-repeat top;
+    background-size: 35px 26px;
+    background-position-y: 10px;
+    background-color: rgb(0,194,240);
+    position: fixed;
+    right: 20px;
+    top: 60vh;
+    color: #fff;
+    font-weight: 100;
+    padding: 10px;
+    padding-top: 40px;
+    font-size: 16px;    
+    text-align: center;
+}
+/* Advice End */
+
+
+
+
+
+
+
