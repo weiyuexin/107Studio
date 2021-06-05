@@ -1,0 +1,274 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: white;
+}
+a{
+	text-decoration-line: none;
+	color: black;
+}
+.top{
+	width: 100%;
+	height: 200px;
+}
+.top-contain{
+	position: absolute;
+	top: 5px;
+	right: 70px;
+	/*background-color: red;*/
+	width: 500px;
+	height: 40px;
+	display: inline-block;
+	font-family: "宋体";
+
+}
+.top-contain-left1{
+	width: 90px;
+	height: 40px;
+	/*background-color: red;*/
+	/*color: white;*/
+	font-size: 16px;
+	line-height: 40px;
+	float: left;
+}
+.top-contain a{
+	color: white;
+}
+.top-contain-left2{
+	width: 20px;
+	height: 40px;
+	color: #c2c2c2;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+.top-contain-left3{
+	width: 90px;
+	height: 40px;
+	/*background-color: red;*/
+	/*color: white;*/
+	font-size: 16px;
+	line-height: 40px;
+	float: left;
+	padding-left: 26px;
+}
+.top-contain-right{
+	width: 260px;
+	height: 40px;
+	/*background-color: red;*/
+	float: left;
+	opacity: 0.5;
+
+}
+.search{
+	width: 200px;
+	height: 30px;
+	padding-top: 5px;
+	float: left;
+}
+.search input{
+	width:200px;
+	height: 30px;
+	border: none;
+	/*color: #ffffff;*/
+	font-size: 14px;
+	text-indent: 20px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.botton{
+	width: 50px;
+	height: 30px;
+	margin-left: 5px;
+	float: left;
+	background-color: #084466;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	margin-top: 5px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.top-contain-right:hover{
+	opacity: 1;
+}
+.content{
+	width: 100%;
+	height: 50px;
+	background-color: #084466;
+	margin-top: 1px;
+}
+.content-contain{
+	width: 1080px;
+	height: 50px;
+	margin:auto;
+}
+.content-contain li{
+	list-style: none;
+}
+.content-contain  li{
+	width: 120px;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	background-color:  #084466;
+}
+.content-contain  li a{
+	width: 120px;
+	height: 50px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	color: white;
+}
+.content-contain ol
+{
+	display: none;
+}
+.content-contain ol li{
+	width: 220px;
+	height: 36px;
+	text-align: center;
+}
+.content-contain ol li a{
+	width: 220px;
+	height: 36px;
+	font-size: 14px;
+	line-height: 36px;
+}
+.article{
+	width: 100%;
+	height: 1258px;
+	position: absolute;
+	top: 300px;
+	z-index: -1;
+
+}
+.article-contain{
+	width: 1200px;
+	height: 1258px;
+	margin:auto;
+}
+.content-left{
+	width: 214px;
+	height: 838px;
+	background-color: #eee;
+	float: left;
+
+}
+.content-left li{
+	width: 164px;
+	height: 45px;
+	list-style: none;
+	font-size: 14px;
+	padding-left: 50px;
+	line-height: 45px;
+
+}
+.content-left span{
+	width: 164px;
+	height: 45px;
+	display:block;
+	font-size: 20px;
+	color: #900;
+	font-weight: bold; 
+	padding-left: 50px;
+	line-height: 45px;
+	border-bottom: 1px dotted;
+
+}
+.content-left li:hover{
+	background-color: #900;
+}
+.content-left li a:hover{
+	font-weight: bold;
+	color:white;
+}
+.content-left li a{
+	width: 164px;
+	height: 40px;
+	display: block;
+}
+.articles{
+	width: 920px;
+	height: 1140px;
+	float: left;
+	margin-left: 50px;
+	position: relative;
+	font-family: "宋体";
+	/*background-color: green;*/
+}
+.title{
+	width: 920px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.author{
+	width: 920px;
+	height: 20px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+}
+.articles-contain{
+	width: 920px;
+	height: auto;
+}
+.articles-contains{
+	width: 920px;
+	height: auto;
+
+}
+.articles-p{
+	width: 920px;
+	margin-top: 50px;
+	height: auto;
+}
+.articles-p p{
+	width: 920px;
+	height: auto;
+	line-height: 1.5em;
+	margin-top: 10px;
+	text-indent: 2em;
+	font-size: 16px;
+}
+.blue{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	top: 1560px;
+	left: 0;
+	
+}
+.blue-center{
+	width: 90%;
+	height: 30px;
+	margin:auto;
+	background-color: #04628D;
+}
+.bottom-contain{
+	font-size: 14px;
+	position: absolute;
+	top: 1600px;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	line-height: 43px;
+}
+.bottom-contain p{
+	height: 20px;
+}
+.bottom-contain span{
+	font-size: 13px;
+}
+.bottom-contain a{
+	font-size: 16px;
+}
