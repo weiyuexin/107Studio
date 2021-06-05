@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./css/首页.css" />
+		<script type="text/javascript" src="./js/jq183.js"></script>
+	</head>
+	<body>
+		<div class="banner">
+			
+			<div class="search">
+				<input class="text" type="text" placeholder="请输入搜索关键字">
+				<button class="btn">搜索</button>
+			</div>
+			<div class="word1">
+				<a href="##" style="font-size: 19px;">加入收藏</a>
+			</div>
+			<div class="line">
+				<a>&nbsp;&nbsp;&nbsp;|</a>
+			</div>
+			<div class="word2">
+				<a href="##" style="font-size: 19px;">设为首页</a>
+			</div>
+		</div>
+		<div class="banner1">
+			<div id="content">
+				<div id="nav">
+					<ul class="supnav">
+						<li><a href="##" class="a">&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;</a></li>
+						
+						<li><a href="##" class="a">部门介绍</a>
+							<ul class="submenu">
+								<li><a href="##">工作职责</a></li>
+								<li><a href="##">机构及人员</a></li>
+								<li><a href="##">领导小组</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="##" class="a">党派团体</a>
+							<ul class="submenu">
+								<li style="width: 250px;"><a href="##">民革河南大学支部</a></li>
+								<li style="width: 250px;"><a href="##">民盟河南大学委员会</a></li>
+								<li style="width: 250px;"><a href="##">民进河南大学总支委员会</a></li>
+								<li style="width: 250px;"><a href="##">民建河南大学总支委员会</a></li>
+								<li style="width: 250px;"><a href="##">农工党河南大学委员会</a></li>
+								<li style="width: 250px;"><a href="##">九三学社河南大学委员会</a></li>
+								<li style="width: 250px;"><a href="##">河南大学台联</a></li>
+								<li style="width: 250px;"><a href="##">河南大学侨联</a></li>
+								<li style="width: 250px;"><a href="##">河南大学支联会</a></li>
+								<li style="width: 250px;"><a href="##">河南大学留联会</a></li> 
+							</ul>
+						</li>
+						
+						<li><a href="##" class="a">人大政协</a>
+							<ul class="submenu">
+								<li><a href="##">人大政协</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="##" class="a">建言献策</a>
+							<ul class="submenu">
+								<li><a href="##">建言献策</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="##" class="a">政策法规</a>
+							<ul class="submenu">
+								<li><a href="##">理论经纬</a></li>
+								<li><a href="##">学习资料</a></li>
+								<li><a href="##">会议纪要</a></li>
+								<li><a href="##">工作纪事</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="##" class="a">民族宗教</a>
+							<ul class="submenu">
+								<li><a href="##">民族工作</a></li>
+								<li><a href="##">宗教工作</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="下载页面.html" class="a">下载专区</a>
+							<ul class="submenu">
+								<li><a href="##">资料下载</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="我要留言.html" class="a">联系我们</a>
+							<ul class="submenu">
+								<li><a href="##">留言板</a></li>
+								<li><a href="##">微博</a></li>
+								<li><a href="##">联系方式</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			<script src="js/1.js"></script>
+		</div>
+		<div class="banner2">
+			<a href="##">张先飞作客同心大讲堂 谈“五四：青年中国的诞...</a>
+		</div>
+		<div class="box1"><!-- //banner -->
+		
+			<div class="subbox1">
+				
+				<div class="list" ><!-- //carousel -->
+					<!-- <img src="img/EF73140121CEED21CA7F7F6B9FF_C1AD0408_8AF5.jpg" alt="" srcset="" /> -->
+					<img src="img/CBB5EAC3368E66F075D8C774FC1_AF5D6B55_B8DF.jpg" alt="" srcset="" />
+					<img src="img/EF73140121CEED21CA7F7F6B9FF_C1AD0408_8AF5.jpg" alt="" srcset="" />
+					<img src="img/CBB5EAC3368E66F075D8C774FC1_AF5D6B55_B8DF.jpg" alt="" srcset="" />
+				</div>
+			
+				<ul class="indications">
+					<li class="active">&nbsp;1&nbsp;</li>
+					<li>&nbsp;2&nbsp;</li>
+				</ul>
+				
+			</div>
+			<script src="js/1.js"></script>
+			<script type="text/javascript">
+				
+				let len = $("img").length;
+				let cutidx = 0;
+				
+				let slide = () => {
+					cutidx ++;
+					$(".list").animate({
+						left:-355*cutidx
+					},function(){
+						if(cutidx == len - 1){
+							cutidx = 0;
+							$(".list").css({
+								"left":0
+							})
+						}
+						$(".indications>li").eq(cutidx).addClass("active").siblings().removeClass('active');
+						
+					})
+				}
+				
+				let timer = setInterval(slide,2000)
+				
+				$(".banner").on('mouseenter',function(){
+					clearInterval(timer)
+				})
+				$(".banner").on('mouseleave',function(){
+					timer = setInterval(slide,2000)
+				})
+				$(".indications>li").on('click',function(){
+					cutidx = $(this).index();
+					$(".list").animate({
+						left:-355*cutidx
+					})
+					$(".indications>li").eq(cutidx).addClass("active").siblings().removeClass('active');
+				})
+			</script>
+			<div style="width: 506px;height: 380px;float: left;margin-top: 15px;margin-left: 15px;">
+				<div class="title1">
+					<a href="##" style="background-color: #084466;font-size: 26px;text-align: center;color: #FFFFFF;">- 理论学习 -</a>
+					<div class="more">
+						<a href="more.html" style="color: #DCDCDC;">more<span class="rightarrow"style="color: #FFFFFF;"> &gt;&gt;</span></a>
+					</div>
+				</div>
+				<div class="words1">
+					<ul>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/links_title.gif" style ="height:8px;"/>&nbsp;&nbsp;<a href="文章.html" style="color: red;"><i></i>《河南日报》张先飞:青年中国的诞生</a></div><span style="color: red;">05月06日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/links_title.gif" style ="height:8px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>100句名言回顾党史100年</a></div><span>04月23日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/links_title.gif" style ="height:8px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>孙守刚：从百年党史中领悟统战法宝作用</a></div><span>04月09日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/links_title.gif" style ="height:8px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>汪洋：推动新时代统战工作高质量发展</a></div><span>04月09日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/links_title.gif" style ="height:8px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>习近平：在党史学习教育动员大会上的讲话</a></div><span>04月06日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/links_title.gif" style ="height:8px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>共商国是！中央政治局常委同志的“统战声音”</a></div><span>03月09日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/links_title.gif" style ="height:8px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>孙守刚：学好用好《中国共产党统一战线工作条例》 解决河南统战工作难点、痛点</a></div><span>02月12日</span></li>
+					</ul>
+				</div>
+			</div>
+			<div style="width: 355px;height: 380px;float: left;margin-top: 15px;margin-left: 15px;">
+				<div class="title1">
+					<a href="##" style="background-color: #084466;font-size: 26px;text-align: center;color: #FFFFFF;">- 通知公告 -</a>
+					<div class="more">
+						<a href="more.html" style="color: #DCDCDC;">more<span class="rightarrow" style="color: #FFFFFF;"> &gt;&gt;</span></a>
+					</div>
+				</div>
+				<div class="words2">
+					<ul>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/kk.png" style ="height:25px;"/>&nbsp;&nbsp;<a href="文章.html" style="color: red;"><i></i>河南省第一届党外知识分子学习贯彻习近平总书记关于加强和改进统一战线工作的重要思想研讨会征稿通知</a></div><span style="color: red;">05月13日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/kk.png" style ="height:25px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>关于学习宣传贯彻《中国共产党统一战线工作条例》的通知</a></div><span>04月09日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/kk.png" style ="height:25px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>关于申报中国高等教育学会“高校统战工作研究”专项课题的通知</a></div><span>05月08日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/kk.png" style ="height:25px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>“同心大讲堂”第十四期——五四：青年中国的诞生</a></div><span>05月08日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/kk.png" style ="height:25px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>关于表彰2020年度基层统战工作先进单位的决定</a></div><span>04月01日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 346px;float:left;overflow:hidden;"><img src= "img/kk.png" style ="height:25px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>同心大讲堂：从百年党史看中国共产党的统战经验（何云峰）</a></div><span>03月19日</span></li>
+					</ul>
+				</div>
+			</div>
+			<div style="width: 430px;height: 380px;float: left;margin-top: 15px;margin-left: 15px;position: relative;">
+				<div class="title3">
+					<div style="float: left;"><img src="img/tzb_sign1.gif" style="height: 32px;"/></div>
+					<a href="##" style="background-color:#FFFFFF;font-size: 26px;color: #A72F2A;">- 新闻速递 -</a>
+					<div class="more">
+						<a href="more.html" style="color: #DCDCDC;">more<span class="rightarrow" style="color: #FFFFFF;"> &gt;&gt;</span></a>
+					</div>
+				</div>
+				<hr />
+				<div class="words3">
+					<ul>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html" style="color: red;"><i></i>张先飞作客同心大讲堂  谈“五四：青年中国的诞生</a></div><span style="color: red;">05月06日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html" style="color: red;"><i></i>何云峰教授应邀赴西亚斯致远住宿书院举办“学习有道”之“汇致远”讲座</a></div><span style="color: red;">04月23日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html" style="color: red;"><i></i>何云峰教授赴郑州升达经贸管理学院马克思主义学院做《中国共产党百年党建的历程》专题报告</a></div><span style="color: red;">04月09日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html" style="color: red;"><i></i>党委学工部到临床医学院调研指导工作</a></div><span style="color: red;">04月09日</span ></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:15px;"/>&nbsp;&nbsp;<a href="文章.html" style="color: red;"><i></i>民进开封市委举行河南大学哲管院硕士生课题研讨会</a></div><span style="color: red;">04月06日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html" style="color: red;"><i></i>李文山深入基层单位宣讲《条例》、讲党课</a></div><span style="color: red;">03月09日</span></li>
+					</ul>
+				</div>
+			</div>
+			<div style="width: 430px;height: 380px;float: left;margin-top: 15px;margin-left: 15px;">
+				<div class="title3">
+					<div style="float: left;"><img src="img/tzb_sign1.gif" style="height: 32px;"/></div>
+					<a href="##" style="background-color: #FFFFFF;font-size: 26px;color: #A72F2A;">- 统战忆往-</a>
+					<div class="more">
+						<a href="more.html" style="color: #DCDCDC;">more<span class="rightarrow"style="color: #FFFFFF;"> &gt;&gt;</span></a>
+					</div>
+				</div>
+				<hr />
+				<div class="words3">
+					<ul>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html" style="color: red;"><i></i>杜祖亮：鞠躬尽瘁朱自强</a></div><span style="color: red;">05月06日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>贾玉英：我与河南大学统战</a></div><span>04月23日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>张治军：怀念我的恩师李丙寅先生</a></div><span>04月09日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>阎现章：不负历史使命，在编辑出版领域为河南大学历史系争光添彩</a></div><span>04月09日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>赵国权：平凡而又诗意的大学生活</a></div><span>04月06日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>张生汉：我向安澜先生求字</a></div><span>03月09日</span></li>
+					</ul>
+				</div>
+			</div>
+			<div style="width: 430px;height: 380px;float: left;margin-top: 15px;margin-left: 15px;">
+				<div class="title3">
+					<div style="float: left;"><img src="img/tzb_sign1.gif" style="height: 32px;"/></div>`
+					<a href="##" style="background-color: #FFFFFF;font-size: 26px;color: #A72F2A;">- 人物风采 -</a>
+					<div class="more">
+						<a href="more.html" style="color: #DCDCDC;">more<span class="rightarrow" style="color: #FFFFFF;"> &gt;&gt;</span></a>
+					</div>
+				</div>
+				<hr />
+				<div class="words3">
+					<ul>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>丁中一 绘画初心的纯净</a></div><span>05月06日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>王立群：一座小城，一位学者</a></div><span>04月23日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>贾玉英：深情扎根河大的宋史专家</a></div><span>04月09日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>王蕴智：越是“冷门”学科，越要甘</a></div><span>04月09日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>《中华读书报》王立群谈枕边书</a></div><span>04月06日</span></li>
+						<li><div style="text-overflow: ellipsis;width: 276px;float:left;overflow:hidden;"><img src= "img/jiantou.png" style ="height:14px;"/>&nbsp;&nbsp;<a href="文章.html"><i></i>《河南日报》深情书写学生引路人的最美模样——走近河南大学生命科学学院教授、九三学社社员谷艳芳</a></div><span>03月09日</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom1">
+				<div class="picture1">
+					<img src="img/ecode_left.jpg" style = "width: 150px;height: 150px;padding-left: 15px;margin-top: 15px;"/>
+					<div style="padding-left: 30px;">"河大统战公众号"</div>
+				</div>
+				<div class="line3">
+					<div class="boxmiini">
+						- 相关链接 -
+					</div>
+				</div>
+				<div class="dotbox">
+					<a href="##"> <img src="img/pc1.gif" /></a>
+					<a href="##"><img src="img/pc2.jpg" /></a>
+					<a href="##"><img src="img/pc33.gif"/></a>
+					<a href="##"><img src="img/pc8.gif" /></a>
+					<a href="##"><img src="img/pc9.gif"/></a>
+				</div>
+				<div class="picture2">
+					<img src="img/ecode_left.jpg" style = "width: 150px;height: 150px;padding-left: 15px;margin-top: 15px;"/>
+					<div style="padding-left: 30px;">"河大统战公众号"</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jq183.js"></script>
+		<script>
+			let cutIdx = 0;
+			let len = $('.list img').length
+			let timer = setInterval(()=>{
+				cutIdx++;
+				if(cutIdx >= len){
+					cutIdx = 0
+				}
+				$('.list').css({
+					left:-355*cutIdx
+				})
+				$("indications>li").eq(cutIdx).addClass("active").siblings().removeClass("active");
+			},2000)
+		</script>
+		<div id="to_top">
+			<img src="img/uTools_1620976404707.png" >
+		</div>
+		<script src="js/jq183.js"></script>
+		<script>
+			$('#to_top').click(function(){
+				var $page = $('html,body')
+				var distance = $('html').scrollTop()+$('body').scrollTop()
+				var time = 500
+				var Intervaltime = 20
+				var itemdistance = distance / (time/Intervaltime)
+				var intervalid = setInterval(function(){
+					distance -= itemdistance
+					if(distance<=0){
+						distance = 0
+						clearInterval(intervalid)
+					}
+					$page.scrollTop(distance)
+				},Intervaltime)
+
+			})
+		</script>
+		<div class="line2"> 
+		&nbsp;
+		</div>
+		<div class="word4">
+			Copyright © 2019 河南大学党委统战部 技术支持 <a href="##" style="color: #000000;">河南大学</a> <a href="##" style="color: #000000;">107网站工作室</a> <a href="##" style="color: #000000;">管理后台</a><br />
+			地址：中国 河南 开封.明伦街/金明大道 邮编：475001/475004 电话：0371-265666428
+		</div>
+		<div id="floatdiv">
+			<span id="Clickclose" >X</span>
+			<img src="img/浮动窗口.jpg" style="width: 500px;height: 200px;">
+		</div>
+		
+		<script type="text/javascript">
+				var isinter;
+				var millisec = 3;//定时器间隔执行时间/毫秒
+				var xfloat = 0; //漂浮层x坐标
+				var yfloat = 0; //漂浮层y坐标
+				var yistop = false;
+				var xisleft = true;
+				function floatanimation(){
+				var	visiblewidth = $(window).width();//可视区域宽度
+				var	visibleheight = $(window).height();//可视区域高度
+		 
+				var	divwidth = $('#floatdiv').width();//div漂浮层宽度
+				var divheight = $('#floatdiv').height();//div漂浮层高度
+		 
+				var hstop = jQuery(window).scrollTop();//滚动条距离顶部的高度
+				var wsleft = jQuery(window).scrollLeft();//滚动条距离最左边的距离
+		 
+				var offwidth = (visiblewidth-divwidth);//div偏移的宽度
+				var offheight = (visibleheight-divheight);//div偏移的高度
+		 
+					if (!yistop) {
+						yfloat++;
+						if (yfloat >= offheight) {
+							yistop = true;
+						}
+					} else {
+						yfloat--;
+						if (yfloat <= 0) {
+							yistop = false;
+						}
+					}
+		 
+					if (xisleft) {
+						xfloat++;
+						if (xfloat >= offwidth) {
+							xisleft = false;
+						}
+					} else {
+						xfloat--;
+						if (xfloat <= 0) {
+							xisleft = true;
+						}
+					}
+		         /* 如果使用固定定位，请把加上滚动条的距离去掉即可 */
+					$('#floatdiv').css({'top':yfloat+hstop,'left':xfloat+wsleft});
+				}
+		 
+				$(function () {
+					isinter = setInterval("floatanimation()",millisec);
+					$('#floatdiv').mouseover(function () {
+						clearInterval(isinter);
+					}).mouseout(function () {
+						isinter = setInterval("floatanimation()",millisec);
+					});
+					$('#Clickclose').click(function () {
+						$(this).parents("#floatdiv").slideUp(500,function(){
+							clearInterval(isinter);
+							$(this).remove();
+						});
+					});
+				});
+			</script>
+	</body>
+</html>

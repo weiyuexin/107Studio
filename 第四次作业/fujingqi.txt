@@ -1,0 +1,26 @@
+git 常用指令
+
+
+git config --global user.name "姓名"  --  修改配置姓名
+git config --global user.email 邮箱   --  修改配置邮箱
+git init                              --  初始化一个Git仓库
+git add <file>                        --  将未跟踪的某一文件加入暂存区
+git add *                             --  将未跟踪的全部文件加入暂存区
+git commit -m ""                      --  将暂存区的文件修改提交到本地仓库
+git rm                                --  删除文件
+git status                            --  查看文件状态
+git log                               --  查看日志记录
+git remote add origin <url>           --  与远程仓库连接，增加一个远程服务器端
+git push -u origin master             --  将文件给推到服务器上(第一次) 
+git push origin master                --  将文件给推到服务器上
+git diff                              --  查看尚未暂存的更新
+git clone                             --  克隆版本库
+clear                                 --  清屏
+cd                                    --  改变目录
+cd..                                  --  返回上一目录
+pwd                                   --  显示当前路径
+ls                                    --  删除当前目录所有文件
+touch                                 --  创建一个文件
+rm                                    --  删除一个文件  
+mkdir                                 --  新建一个文件夹
+rm-r                                  --  删除一个文件夹

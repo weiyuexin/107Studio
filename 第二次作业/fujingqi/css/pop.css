@@ -1,0 +1,128 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.popwindow{
+	width: 1000px;
+	height: 836px;
+	background-color: #abcdef;
+	padding: 2px;
+	border: 2px solid #abcdef;
+	position: absolute;
+}
+
+.popwindow_1{
+	width: 1000px;
+	height: 836px;
+	background-color: #abcdef;
+	padding: 2px;
+	border: 2px solid #abcdef;
+	position: absolute;
+}
+
+.popwindow_2{
+	width: 1000px;
+	height: 836px;
+	background-color: #abcdef;
+	padding: 2px;
+	border: 2px solid #abcdef;
+	position: absolute;
+}
+
+.popwindow_3{
+	width: 1000px;
+	height: 836px;
+	background-color: #abcdef;
+	padding: 2px;
+	border: 2px solid #abcdef;
+	position: absolute;
+}
+
+.hide{
+	display: none;
+}
+
+.popwindow h3{
+	height: 30px;
+	line-height: 30px;
+}
+
+.popwindow_1 h3{
+	height: 30px;
+	line-height: 30px;
+}
+
+.popwindow_2 h3{
+	height: 30px;
+	line-height: 30px;
+}
+
+.popwindow_3 h3{
+	height: 30px;
+	line-height: 30px;
+}
+
+.popwindow h3 span{
+	float: right;
+	font-size: 14px;
+	font-weight: normal;;
+	cursor: pointer;
+}
+
+.popwindow_1 h3 span{
+	float: right;
+	font-size: 14px;
+	font-weight: normal;;
+	cursor: pointer;
+}
+
+.popwindow_2 h3 span{
+	float: right;
+	font-size: 14px;
+	font-weight: normal;;
+	cursor: pointer;
+}
+
+.popwindow_3 h3 span{
+	float: right;
+	font-size: 14px;
+	font-weight: normal;;
+	cursor: pointer;
+}
+
+.popwindow h3 span:hover{
+	color: #f00;
+}
+
+.popwindow_1 h3 span:hover{
+	color: #f00;
+}
+
+.popwindow_2 h3 span:hover{
+	color: #f00;
+}
+
+.popwindow_3 h3 span:hover{
+	color: #f00;
+}
+
+.popwindow .content{
+	height: 270px;
+	background-color: #fff;'
+}
+
+.popwindow_1 .content_1{
+	height: 270px;
+	background-color: #fff;'
+}
+
+.popwindow_2 .content_1{
+	height: 270px;
+	background-color: #fff;'
+}
+
+.popwindow_3 .content_1{
+	height: 270px;
+	background-color: #fff;'
+}

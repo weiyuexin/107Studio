@@ -1,0 +1,31 @@
+.message_1{
+	background-color: #E2F2FA;
+	width: 100%;
+	height: 30px;
+}
+
+.message_1 a{
+	font-weight: bold;
+	color: #367199;
+}
+
+.message_2{
+	background-color: #F5F5F5;
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+
+.TEXT{
+	width: 96%;
+	height: 440px;
+	background-color: #FFFFFF;
+	border: 1px solid #407997;
+	margin: auto;
+}
+
+.word3{
+	width: 690px;
+	height: 300px;
+	background-color: #000000;
+}
