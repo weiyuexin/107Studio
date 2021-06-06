@@ -1,0 +1,760 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*搭建顶部和搜索框*/
+.topper{
+    width: 100%;
+    background-color: #F5AA02;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.topper img{
+    width: 462.4px;
+    height: 111.75px;
+    float: left;
+    position: relative;
+    left: 7%;
+}
+/*搜索框*/
+.topper input{
+    font-size: 0.5em;
+    width: 150px;
+    height: 30px;
+    border-radius: 0%;
+    border-top-left-radius: 3em;
+    border-bottom-left-radius: 3em;
+    border: solid 2px #118E99;
+    outline:none;
+    padding-left:1.2%;
+    background-color: #F5AA02;
+    float: right;
+    position: relative;
+    right: 15%;
+    top: 40px;
+    z-index: 10;
+}
+/*按钮*/
+.topper button{
+    width: 40px;
+    background-color: #118E99;
+    height: 34px;
+    border: solid 1px #118E99;
+    border-radius: 0%;
+    border-bottom-right-radius: 3em;
+    border-top-right-radius: 3em;
+    float: right;
+    font-size: 13px;
+    color: white;
+    position: relative;
+    right: 15%;
+    top: 40px;
+}
+
+
+/*搭建顶部下方导航栏*/
+.top-nav{
+    width: 100%;
+    height: 60px;
+    background-color: #118E99;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.top-nav .top-nav-ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    left: 16%;
+    width: 10%;
+}
+.top-nav .top-nav-ul li a{
+    display: block;
+    padding: 20px 10%;
+    background-color: #118E99;
+}
+.top-nav .top-nav-ul li a:hover{
+    background-color: #EC6B0E;
+}
+
+/*搭建中心简介的下拉菜单*/
+.second-div{
+    width: 10%;
+    position: absolute;
+    left: 26%;
+    display: none;
+    box-shadow: 4px 4px 10px;
+    z-index: 1;
+}
+.second-div .second-div-ul li a{
+    display: block;
+    padding: 20px 10%;
+    background-color: #118E99;
+}
+.second-div .second-div-ul li{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.second-div .second-div-ul li a:hover{
+    background-color: #EC6B0E;
+}
+
+/*搭建中心动态的下拉菜单*/
+.third-div{
+    width: 10%;
+    position: absolute;
+    left: 36%;
+    display: none;
+    z-index: 1;
+    box-shadow: 4px 4px 10px;
+}
+.third-div .third-div-ul li a{
+    display: block;
+    padding: 20px 10%;
+    background-color: #118E99;
+}
+.third-div .third-div-ul li{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.third-div .third-div-ul li a:hover{
+    background-color: #EC6B0E;
+}
+
+/*搭建教师培训的下拉菜单*/
+.forth-div{
+    width: 10%;
+    position: absolute;
+    left: 46%;
+    display: none;
+    z-index: 1;
+    box-shadow: 4px 4px 10px;
+}
+.forth-div .forth-div-ul li a{
+    display: block;
+    padding: 20px 10%;
+    background-color: #118E99;
+}
+.forth-div .forth-div-ul li{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.forth-div .forth-div-ul li a:hover{
+    background-color: #EC6B0E;
+}
+
+/*搭建教学研究的下拉菜单*/
+.fifth-div{
+    width: 10%;
+    position: absolute;
+    left: 56%;
+    display: none;
+    z-index: 1;
+    box-shadow: 4px 4px 10px;
+}
+.fifth-div .fifth-div-ul li a{
+    display: block;
+    padding: 20px 10%;
+    background-color: #118E99;
+}
+.fifth-div .fifth-div-ul li{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.fifth-div .fifth-div-ul li a:hover{
+    background-color: #EC6B0E;
+}
+
+/*搭建资源中心的下拉菜单*/
+.sixth-div{
+    width: 10%;
+    position: absolute;
+    left: 66%;
+    display: none;
+    box-shadow: 4px 4px 10px;
+    z-index: 1;
+}
+.sixth-div .sixth-div-ul li a{
+    display: block;
+    padding: 20px 10%;
+    background-color: #118E99;
+}
+.sixth-div .sixth-div-ul li{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.sixth-div .sixth-div-ul li a:hover{
+    background-color: #EC6B0E;
+}
+
+/*搭建轮播图框架*/
+#container{
+    height: 499px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 0;
+}
+#picturelist{
+    position: absolute;
+    height: 499px;
+    width: 600%;
+}
+#container #picturelist img{
+    height: 499px;
+    width: 16.6666666666666666%;
+    float: left;
+}
+
+/*搭建轮播图左右导航*/
+#container #right{
+    position: absolute;
+    left: 95%;
+    top: 40%;
+    color: white;
+    font-size: 60px;
+}
+#container #left{
+    position: absolute;
+    left: 5%;
+    color: white;
+    top: 40%;
+    font-size: 60px;
+}
+
+/*搭建轮播图下部导航栏*/
+#navdiv{
+    position: absolute;
+    left: 39%;
+    top: 90%;
+    height: 10%;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.5);
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+#navdiv .on{
+    background-color: #EC6B0E;
+}
+#navdiv span{
+    width: 35px;
+    height: 10px;
+    background-color: #5e5e5e;
+    float: left;
+    margin: 0 25px ;
+    border-radius: 3em;
+    position: relative;
+    top: 40%;
+}
+
+
+
+
+/*大容器定位*/
+#bigcontainer{
+    position: relative;
+    top: 3%;
+    width: 100%;
+    height: auto;
+    height: 50%;
+}
+
+/*搭建诗词点击切换栏*/
+#a{
+    width: 30%;
+    position: relative;
+    left: 11%;
+    height: 35.3%;
+}
+#poemchangebyclick{
+    width: 30%;
+    top: 3%;
+    height: 50px;
+    background-color: #118E99;
+    overflow: hidden;
+    left: 11%;
+    position: relative;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+#poemchangebyclick #poemchangebyclick-ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+#poemchangebyclick #poemchangebyclick-ul li span{
+    display: block;
+    padding: 15px 10%;
+    color: white;
+    background-color: #F5AA02;
+    border-top: 1.5em;
+}
+#poemchangebyclick #poemchangebyclick-ul #shui{
+    background-color: #EC6B0E;
+}
+
+/*水调歌头*/
+#shuidiaogetou{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 9.1%;
+    box-shadow: 2px 2px 10px gray;
+}
+#shuidiaogetou span{
+    color: black;
+    display: block;
+    padding: 15px 6%;
+}
+#shuidiaogetou li{
+    width: 100%;
+    text-align: left;
+}
+#shuidiaogetou span:hover{
+    color: red;
+}
+
+/*满江红*/
+#manjianghong{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 9.1%;
+    display: none;
+    box-shadow: 2px 2px 10px gray;
+}
+#manjianghong span{
+    color: black;
+    display: block;
+    padding: 15px 6%;
+}
+#manjianghong li{
+    width: 100%;
+    text-align: center;
+}
+#manjianghong span:hover{
+    color: red;
+}
+
+/*第二个轮播图框架*/
+#container1{
+    width: 25%; 
+    height: 234.4px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 0;
+    left: 5%;
+    top: -45%;
+    border: 5px solid #F5AA02;
+    border-radius: 0.6em;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px;
+}
+#picturelist1{
+    position: absolute;
+    height: 234.4px;
+    width: 600%;
+}
+#container1 #picturelist1 img{
+    height: 234.4px;
+    width: 16.6666666666%;
+    float: left;
+}
+
+/*轮播图图片按钮*/
+#picturebtn{
+    width: 25%;
+    position: relative;
+    left: 43.2%;
+    top: -44.5%;
+}
+#picturebtn img{
+    float: left;
+    width: 21.5%;
+    height: 60px;
+    margin-right: 3px;
+    border:3px solid #D6E5EC;
+}
+#picturebtn .on1 img{
+    border-color: #EC6B0E;
+}
+#picturebtn .ON1{
+    color: #EC6B0E;
+}
+#angle1{
+    width: 1px;
+    height: 1px;
+    color: white;
+    position: relative;
+    top: -6px;
+    left: 10%;
+}
+#angle2{
+    width: 1px;
+    height: 1px;
+    color: white;
+    position: relative;
+    top: -7px;
+    left: 34%;
+}
+#angle3{
+    width: 1px;
+    height: 1px;
+    color: white;
+    position: relative;
+    top: -8px;
+    left: 58%;
+}
+#angle4{
+    width: 1px;
+    height: 1px;
+    color: white;
+    position: relative;
+    top: -9px;
+    left: 82%;
+}
+
+
+/*滑动切换古诗框架*/
+#poemchangebyslide{
+    width: 20%;
+    height: 300.4px;
+    position: relative;
+    background-color: white;
+    left: 45%;
+    top: -110.5%;
+    border: 1.5px solid #F5AA02;
+    box-shadow: 2px 2px 10px gray;
+    overflow: hidden;
+}
+#chunxiaodiv{
+    position: relative;
+}
+#chunxiaodiv #chunxiaodiv-ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+#chunxiaodiv #chunxiaodiv-ul li span{
+    display: block;
+    padding: 15px 4%;
+    color: white;
+    background-color: #EC6B0E;
+    position: relative;
+}
+
+
+/*春晓内容区*/
+#chunxiaocontent{
+    width: 100%;
+    position: relative;
+    height: 50%;
+    overflow: hidden;
+    background-color: white;
+}
+#chunxiaocontent dd{
+    position: relative;
+    margin-left: 10px;
+    text-align: left;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 14px;
+}
+
+
+#yeyudiv{
+    position: absolute;
+    top: 68%;
+}
+#yeyudiv #yeyudiv-ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: left;
+    width: 3000%;
+    z-index: 10;
+}
+#yeyudiv #yeyudiv-ul li span{
+    display: block;
+    padding: 15px 0.3%;
+    color: white;
+    background-color: #F5AA02;
+    position: relative;
+    z-index: 10;
+}
+
+
+/*夜雨寄北内容区*/
+#yeyucontent{
+    width: 100%;
+    position: relative;
+    height: 50%;
+    background-color: white;
+}
+#yeyucontent dd{
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-size: 14px;
+}
+
+
+#qingmingdiv{
+    position: absolute;
+    top: 83%;
+}
+#qingmingdiv #qingmingdiv-ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: left;
+    width: 3000%;
+    z-index: 30;
+}
+#qingmingdiv #qingmingdiv-ul li span{
+    display: block;
+    padding: 15px 0.3%;
+    color: white;
+    background-color: #F5AA02;
+    position: relative;
+}
+
+
+/*清明内容区*/
+#qingmingcontent{
+    width: 100%;
+    position: relative;
+    top: 38.5%;
+    height: 50%;
+    background-color: white;
+}
+#qingmingcontent dd{
+    position: relative;
+    top: -45%;
+    margin-left: 10px;
+    text-align: left;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    font-size: 14px;
+}
+
+
+
+/*最后一个轮播图。。。。。。。。。。*/
+#container2{
+    width: 50%; 
+    height: 150.4px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 0;
+    left: -20%;
+    border: 2.5px solid #F5AA02;
+    border-radius: 0.6em;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px;
+}
+#picturelist2{
+    position: absolute;
+    height: 150.4px;
+    width: 350%;
+}
+#container2 #picturelist2 img{
+    height: 150.4px;
+    width: 6.142857%;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+
+/*轮播图左右导航*/
+#container2 #RIGHT{
+    position: absolute;
+    left: 95%;
+    top: 40%;
+    color: white;
+    font-size: 30px;
+}
+#container2 #LEFT{
+    position: absolute;
+    left: 5%;
+    color: white;
+    top: 40%;
+    font-size: 30px;
+}
+
+
+/*背景暗化处理*/
+#modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    z-index: 50;
+    display: none;
+}
+
+
+/*小狗*/
+#dogcontainer{
+    width: 15%;
+    background-color: red;
+    position: relative;
+    left:70%;
+    top: -22.5%;
+}
+#dogcontainer img{
+    width: 48%;
+    position: relative;
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+
+/*小狗大图*/
+#bigdogcontainer1{
+    position: fixed;
+    left: 30%;
+    width: 40%;
+    height:60%;
+    top: 20%;
+    z-index: 100;
+    border: 4px solid rgb(187, 186, 186);
+    border-radius: 0.3em;
+    display: none;
+}
+#bigdogcontainer1 img{
+    width: 100%;
+    height: 100%;
+}
+#bigdogcontainer1 i{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 95%;
+    top: -100.3%;
+}
+
+
+#bigdogcontainer2{
+    position: fixed;
+    left: 30%;
+    width: 40%;
+    height:60%;
+    top: 20%;
+    z-index: 100;
+    border: 4px solid #A1A5A5;
+    border-radius: 0.3em;
+    display: none;
+}
+#bigdogcontainer2 img{
+    width: 100%;
+    height: 100%;
+}
+#bigdogcontainer2 i{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 95%;
+    top: -100.3%;
+}
+
+
+#bigdogcontainer3{
+    position: fixed;
+    left: 30%;
+    width: 40%;
+    height:60%;
+    top: 20%;
+    z-index: 100;
+    border: 4px solid #A1A5A5;
+    border-radius: 0.3em;
+    display: none;
+}
+#bigdogcontainer3 img{
+    width: 100%;
+    height: 100%;
+}
+#bigdogcontainer3 i{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 95%;
+    top: -100.3%;
+}
+
+
+#bigdogcontainer4{
+    position: fixed;
+    left: 30%;
+    width: 40%;
+    height:60%;
+    top: 20%;
+    z-index: 100;
+    border: 4px solid #A1A5A5;
+    border-radius: 0.3em;
+    display: none;
+}
+#bigdogcontainer4 img{
+    width: 100%;
+    height: 100%;
+}
+#bigdogcontainer4 i{
+    color: whitesmoke;
+    font-size: 30px;
+    position: relative;
+    left: 95%;
+    top: -100.3%;
+}
+
+
+/*footer的搭建*/
+#footer{
+    width: 100%;
+    height: 25%;
+    position: relative;
+    top: 2%;
+    background-color: #F5AA02;
+    margin: 0 auto;
+}
+
+#footer img{
+    position: relative;
+    width: 25%;
+    left: 5%;
+}
+
+#footer dd{
+    position: relative;
+    left: 55%;
+    top: -90%;
+    margin: 1%;
+}
+
+#footer dd span:hover{
+    color: red;
+}

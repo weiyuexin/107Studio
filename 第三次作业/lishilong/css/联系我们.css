@@ -1,0 +1,242 @@
+.content{
+    width: 1200px;
+    height: 510px;
+}
+
+body{
+    background-color: white;
+}
+
+
+/*leftlist*/
+.leftlistdiv{
+    width: 253px;
+    position: relative;
+    left: -10px;
+    top: 1px;
+}
+.leftlistdiv img{
+    cursor: pointer;
+    margin-top: 10px;
+    position: relative;
+    left: 30px;
+}
+
+.leftlistdiv h2{
+    color: black;
+    font-size: 15px;
+    width: 253px;
+    height: 20px;
+    font-weight: normal;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.leftlistdiv li a{
+    color: #337AC7;
+}
+.leftlistdiv li{
+    padding-top: 10px;
+    height: 10px;
+    width: 223px;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.leftlistdiv li:hover a{
+    color: #084466;
+}
+/*右侧内容区*/
+.rightcontent{
+    width: 900px;
+    height: 560px;
+    position: relative;
+    left: 270px;
+    top: -495px;
+}
+.rightcontent .topdiv{
+    width: 100%;
+    height: 50px;
+}
+.rightcontent .topdiv img{
+    width: 32px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.rightcontent .topdiv span{
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    top: 8px;
+}
+.rightcontent .topdiv span a{
+    font-size: 18px;
+    color: black;
+}
+/*footer的搭建*/
+.footer{
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}
+.footer .gap{
+    width: 90%;
+    top: 20px;
+    height: 30px;
+    background-color: #04628B;
+    position: relative;
+    left: 5%;
+}
+.maker{
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+.maker dd{
+    text-align: center;
+}
+.maker span{
+    cursor: pointer;
+}
+.maker dd span:hover{
+    color: #A1271D;
+}
+
+/*留言图标*/
+.liuyantubiao span{
+    font-family: 宋体;
+    font-weight: 600;
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+}
+.liuyantubiao{
+    position: relative;
+}
+.liuyanliebiao{
+    width: 100%;
+    height: 15px;
+    background: -webkit-gradient(linear,0 0 , 0 100%,from(#EFFEF7),to(#D9E1E7));
+    position: relative;
+}
+.liuyanliebiao span{
+    width: 60px;
+    height: 24px;
+    font-size: 13px;
+    position: relative;
+    padding-top: 6px;
+    display: block;
+    float: left;
+    left: 10%;
+    top: -15px;
+    z-index: 1;
+    margin-left: 12.5%;
+}
+.backg{
+    width: 100%;
+    height: 15px;
+    background: -webkit-gradient(linear,0 0 , 0 100%,from(#B8C9D2),to(#F0F3F6));
+    position: relative;
+    top: 15px;
+}
+.emm{
+    position: absolute;
+    top: 845px;
+}
+.emm span{
+    font-family: 宋体;
+    color:#A1271D ;
+    font-weight: 600;
+}
+
+
+/*留言弹出框*/
+.liuyankuang{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: 55px;
+    background-color: #F5F5F5;
+    display: none;
+}
+.liuyankuang .title{
+    width: 598px;
+    height: 30px;
+    background-color: #E2F2FA;
+    border: 1px solid #C1E0FF;
+}
+.liuyankuang .title h5{
+    color: #2F7195;
+    font-size: 13px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.liuyankuang .shuru{
+    width: 580px;
+    height: 410px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid #C1E0FF;
+}
+.shuru span{
+    font-size: 13px;
+    font-weight: 600;
+    color: #2F7195;
+    margin-left:5px;
+    margin-right: 5px;
+}
+.shuru input{
+    height: 20px;
+    border: 1px solid #C1E0FF;
+}
+#x{
+    width: 300px;
+}
+#check{
+    width: 15px;
+    margin-top: 5px;
+    height: 15px;
+    margin-left: 5px;
+    position: relative;
+}
+.liuyankuang .content{
+    width: 560px;
+    margin: 0 auto;
+    height: 280px;
+    margin-top: 10px;
+    border: 1px solid #D9D9D9;
+}
+.liuyankuang .picturelist{
+    width: 559px;
+    height: 25px;
+    background-color: cornflowerblue;
+    background-color: #E2E2DE;
+    position: relative;
+    top: 0.5px;
+    left: 0.5px;
+}
+.liuyankuang .picturelist img{
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.liuyankuang .content textarea{
+    width: 559px;
+    position: relative;
+    left: 0.5px;
+    height: 255px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.liuyankuang a{
+    color: #0000EF;
+    text-decoration: underline;
+    position: relative;
+    left: 250px;
+    top: 55px;
+    cursor: pointer;
+}
