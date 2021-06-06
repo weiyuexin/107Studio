@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <mata charst="utf-8">
+        <title>统战部</title>
+        <link rel="stylesheet" type="text/css" href="css/公用.css">
+        <link rel="stylesheet" type="text/css" href="css/统战部.css">
+        <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="js/统战部.js"></script>
+        <script type="text/javascript" src="js/公用.js"></script>
+    </head>
+    <body>
+
+
+        <!--头部的搭建-->
+        <div class="head">
+            <img src="image/top-bj2.gif">
+
+            <div class="headright">
+                <ul>
+                    <li>设为首页</li>
+                    <li>|</li>
+                    <li>加入收藏</li>
+                    <input type="text" placeholder="请输入搜索关键字" class="textinput">
+                    <input type="button" value="搜索" class="searchbtn">
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!--导航栏的搭建-->
+        
+        <div class="back"></div>
+        <div class="top-nav">
+            <ul class="top-nav-ul">
+                <li class="top-nav-ul-li"><a class="top-nav-ul-li-a" href="统战部首页.html" id="first">首页</a></li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="second">部门介绍</a>
+
+                    <!--部门介绍下拉菜单的搭建-->
+                       <div class="second-div">
+                            <ul class="second-div-ul">
+                                <li><a href="#">工作职责</a></li>
+                                <li><a href="#">机构及人员</a></li>
+                                <li><a href="#">领导人员</a></li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="third">党派团体</a>
+
+                    <!--党派团体下拉菜单的搭建-->
+                    <div class="third-div">
+                        <ul class="third-div-ul">
+                            <li><a href="#">民革河南大学支部</a></li>
+                            <li><a href="#">民盟河南大学委员会</a></li>
+                            <li><a href="#">民进河南大学总支委员会</a></li>
+                            <li><a href="#">民建河南大学总支委员会</a></li>
+                            <li><a href="#">农工党河南大学委员会</a></li>
+                            <li><a href="#">九三学社河南大学委员会</a></li>
+                            <li><a href="#">河南大学台联</a></li>
+                            <li><a href="#">河南大学侨联</a></li>
+                            <li><a href="#">河南大学知联会</a></li>
+                            <li><a href="#">河南大学留联会</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="forth">人大政协</a>
+
+                     <!--人大政协下拉菜单的搭建-->
+                     <div class="forth-div">
+                        <ul class="forth-div-ul">
+                            <li><a href="#">人大政协</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="fifth">建言献策</a>
+
+                    <!--建言献策下拉菜单的搭建-->
+                    <div class="fifth-div">
+                        <ul class="fifth-div-ul">
+                            <li><a href="#">建言献策</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="sixth">政策法规</a>
+
+                    <!--政策法规下拉菜单的搭建-->
+                    <div class="sixth-div">
+                        <ul class="sixth-div-ul">
+                            <li><a href="#">理论经纬</a></li>
+                            <li><a href="#">学习资料</a></li>
+                            <li><a href="#">会议纪要</a></li>
+                            <li><a href="#">工作记事</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="seventh">民族宗教</a>
+
+                    <!--民族宗教下拉菜单的搭建-->
+                    <div class="seventh-div">
+                        <ul class="seventh-div-ul">
+                            <li><a href="#">民族工作</a></li>
+                            <li><a href="#">宗教工作</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="html/下载专区.html" id="eigth">下载专区</a>
+
+                    <!--下载专区下拉菜单的搭建-->
+                    <div class="eigth-div">
+                        <ul class="eigth-div-ul">
+                            <li><a href="#">资料下载</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="html/联系我们.html" id="ninth">联系我们</a>
+
+                    <!--联系我们下拉菜单的搭建-->
+                    <div class="ninth-div">
+                        <ul class="ninth-div-ul">
+                            <li><a href="#">留言板</a></li>
+                            <li><a href="#">微博</a></li>
+                            <li><a href="#">联系方式</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <!--大横幅搭建-->
+        <div class="bigheng">
+            <img src="image/headNew.gif">
+            <div><h1>汪洋在宁夏调研时强调 推动新时代民族工作高质量...</h1></div>
+        </div>
+
+
+        <!--内容区的搭建-->
+    <div class="content">
+
+
+
+            <!--轮播图搭建-->
+            <div id="container">
+                <div id="picturelist">
+                    <img src = "image/lunbotu2.jpg">
+                    <img src = "image/lunbotu1.jpg">
+                    <img src = "image/lunbotu2.jpg">
+                    <img src = "image/lunbotu1.jpg">
+                </div>
+
+                <!--轮播图下方导航条-->
+            <div id="navdiv">
+                <span index="1" class="on">1</span>
+                <span index="2">2</span>
+            </div>
+        </div>
+
+        <!--轮播图下注释-->
+        <div class="zhushi">
+            <dd index = "1" class="ON">我校荣获“河南省民族团结进步创建示范单位”称号</dd>
+            <dd index = "2" class="NO">省委常委、统战部部长孙守刚出席“2019河南省两...</dd>
+        </div>
+
+
+
+        <!--理论学习的搭建-->
+        <div class="lilunxuexi">
+            <div class="toptitle">
+                <div class="title">
+                    <h3>- 理论学习 -</h3>
+                </div>
+
+                <a href="html/理论学习列表页.html">more<div id="yuan">>></div></a>
+            </div>
+
+
+            <div class="list">
+                <ul>
+                    <a href="html/理论学习正文一.html"><li><img src="image/links_title.gif">汪洋在宁夏调研时强调 推动新时代民族工作高质量发...<span>05月20日</span></li></a>
+                    <a href="html/理论学习正文二.html"><li><img src="image/links_title.gif">尤权河南调研：深入贯彻党的重大决策部署 维护民族...<span>05月20日</span></li></a>
+                    <a href="html/理论学习正文三.html"><li><img src="image/links_title.gif">《河南日报》张先飞:青年中国的诞生...<span>05月06日</span></li></a>
+                    <a href="html/理论学习正文四.html"><li><img src="image/links_title.gif">100句名言回顾党史100年...<span>04月23日</span></li></a>
+                    <a href="html/理论学习正文一.html"><li><img src="image/links_title.gif">孙守刚：从百年党史中领悟统战法宝作用...<span>04月09日</span></li></a>
+                    <a href="html/理论学习正文二.html"><li><img src="image/links_title.gif">汪洋：推动新时代统战工作高质量发展...<span>04月09日</span></li></a>
+                    <a href="html/理论学习正文三.html"><li><img src="image/links_title.gif">习近平：在党史学习教育动员大会上的讲话...<span>04月06日</span></li></a>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!--通知公告的搭建-->
+        <div class="tongzhigonggao">
+            <div class="toptitle">
+                <div class="title">
+                    <h3>- 通知公告 -</h3>
+                </div>
+
+                <a href="html/通知公告列表页.html">more<div id="yuan">>></div></a>
+            </div>
+
+
+            <div class="list">
+                <ul>
+                    <a href="html/通知公告正文一.html"><li><div></div>河南省第一届党外知识分子学习贯...<span>05月13日</span></li></a>
+                    <a href="html/通知公告正文二.html"><li><div></div>关于学习宣传贯彻《中国共产党统...<span>04月09日</span></li></a>
+                    <a href="html/通知公告正文三.html"><li><div></div>关于申报中国高等教育学会“高校统...<span>05月08日</span></li></a>
+                    <a href="html/通知公告正文四.html"><li><div></div>“同心大讲堂”第十四期——五四：青...<span>05月08日</span></li></a>
+                    <a href="html/通知公告正文一.html"><li><div></div>关于表彰2020年度基层统战工作先...<span>04月01日</span></li></a>
+                    <a href="html/通知公告正文二.html"><li><div></div>同心大讲堂：从百年党史看中国共...<span>03月19日</span></li></a>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--新闻速递的搭建-->
+        <div class="xinwensudi">
+            <div class="toptitle">
+                <div class="title">
+                    <h3>新闻速递</h3>
+                    <img src="image/tzb_sign1.gif" style="width: 12px;" id="img1">
+                    <img src="image/tzb_sign2.gif" style="width:150px" id="img2">
+                </div>
+
+                <a href="html/新闻速递列表页.html">more<div id="yuan">>></div></a>
+            </div>
+
+
+            <div class="list">
+                <ul>
+                    <a href="html/新闻速递正文一.html"><li><img src="image/jiantou.png">农工党委员会赴红旗渠开展学党史...<span>05月24日</span></li></a>
+                    <a href="html/新闻速递正文二.html"><li><img src="image/jiantou.png">党委统战部赴兰考调研并开展主题...<span>05月21日</span></li></a>
+                    <a href="html/新闻速递正文三.html"><li><img src="image/jiantou.png">法学院共进班组织开展少数民族学...<span>05月21日</span></li></a>
+                    <a href="html/新闻速递正文四.html"><li><img src="image/jiantou.png">民进河南大学总支召开《中国共产...<span>05月21日</span></li></a>
+                    <a href="html/新闻速递正文一.html"><li><img src="image/jiantou.png">学习、传承红色文化，为实现中华...<span>05月21日</span></li></a>
+                    <a href="html/新闻速递正文二.html"><li><img src="image/jiantou.png">我院姚远教授荣获第十届“河南省...<span>05月20日</span></li></a>
+                </ul>
+            </div>
+        </div>
+
+
+
+         <!--统战忆往的搭建-->
+         <div class="tongzhanyiwang">
+            <div class="toptitle">
+                <div class="title">
+                    <h3>统战忆往</h3>
+                    <img src="image/tzb_sign1.gif" style="width: 12px;" id="img1">
+                    <img src="image/tzb_sign2.gif" style="width:150px" id="img2">
+                </div>
+
+                <a href="html/统战忆往列表页.html">more<div id="yuan">>></div></a>
+            </div>
+
+
+            <div class="list">
+                <ul>
+                    <a href="html/统战忆往正文一.html"><li><img src="image/jiantou.png">嵇文甫：中原史家，桃李天下<span>05月17日</span></li></a>
+                    <a href="html/统战忆往正文一.html"><li><img src="image/jiantou.png">杜祖亮：鞠躬尽瘁朱自强<span>04月29日</span></li></a>
+                    <a href="html/统战忆往正文一.html"><li><img src="image/jiantou.png">贾玉英：我与河南大学统战<span>04月23日</span></li></a>
+                    <a href="html/统战忆往正文一.html"><li><img src="image/jiantou.png">张治军：怀念我的恩师李丙寅先生<span>02月04日</span></li></a>
+                    <a href="html/统战忆往正文一.html"><li><img src="image/jiantou.png">阎现章：不负历史使命，在编辑出...<span>01月13日</span></li></a>
+                    <a href="html/统战忆往正文一.html"><li><img src="image/jiantou.png">赵国权：平凡而又诗意的大学生活<span>09月11日</span></li></a>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!--人物采风的搭建-->
+        <div class="renwucaifeng">
+            <div class="toptitle">
+                <div class="title">
+                    <h3>人物采风</h3>
+                    <img src="image/tzb_sign1.gif" style="width: 12px;" id="img1">
+                    <img src="image/tzb_sign2.gif" style="width:150px" id="img2">
+                </div>
+
+                <a href="html/人物采风列表页.html">more<div id="yuan">>></div></a>
+            </div>
+
+
+            <div class="list">
+                <ul>
+                    <a href="html/人物采风正文一.html"><li><img src="image/jiantou.png">丁中一 绘画初心的纯净<span>05月11日</span></li></a>
+                    <a href="html/人物采风正文一.html"><li><img src="image/jiantou.png">王立群：一座小城，一位学者<span>05月07日</span></li></a>
+                    <a href="html/人物采风正文一.html"><li><img src="image/jiantou.png">贾玉英：深情扎根河大的宋史专家<span>04月29日</span></li></a>
+                    <a href="html/人物采风正文一.html"><li><img src="image/jiantou.png">王蕴智：越是“冷门”学科，越要甘于寂寞<span>04月21日</span></li></a>
+                    <a href="html/人物采风正文一.html"><li><img src="image/jiantou.png">《中华读书报》王立群谈枕边书<span>03月04日</span></li></a>
+                    <a href="html/人物采风正文一.html"><li><img src="image/jiantou.png">《河南日报》深情书写学生引路人的...<span>01月18日</span></li></a>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--左侧二维码-->
+        <div class="QRcodeleft">
+            <img src="image/ecode_left.jpg">
+            <span>"河大统战"公众号</span>
+        </div>
+
+
+        <!--相关链接-->
+        <div class="xiangguanlianjie">
+            <div class="title">
+                <h3>- 相关链接 -</h3>
+            </div>
+        </div>
+
+
+        <!--右侧二维码-->
+        <div class="QRcoderight">
+            <img src="image/ecode_right.jpg">
+            <span>"统战新语"公众号</span>
+        </div>
+
+
+        <!--相关链接图标-->
+        <div class="tubiao">
+            <li><a href="#"><img src="image/pc1.gif"></a></li>
+            <li><a href="#"><img src="image/pc2.jpg"></a></li>
+            <li><a href="#"><img src="image/pc8.gif"></a></li>
+            <li><a href="#"><img src="image/pc9.gif"></a></li>
+        </div>
+    </div>
+
+
+    <!--footer的搭建-->
+    <div class="footer">
+        <div class="gap"></div>
+
+        <div class="maker">
+            <dd>Copyright © 2019 河南大学党委统战部 技术支持 <span>河南大学</span> <span>107网站工作室</span> <span>管理后台</span></dd>
+            <dd>地址：中国 河南 开封.明伦街/金明大道 邮编：475001/475004 电话：0371-265666428</dd>
+        </div>
+    </div>
+
+
+    <!--自动滑块的搭建-->
+    <div class="slider">
+        <img src="image/slider.jpg">
+    </div>
+
+
+    <!--回到顶部-->
+    <div class="gotop">
+        <img src="image/go to top.png">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

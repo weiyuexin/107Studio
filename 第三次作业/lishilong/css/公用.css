@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    width: 100%;
+    min-width: 1200px;
+    background-color: #D6E8F4;
+}
+
+
+
+/*头部的搭建*/
+.head{
+    width: 100%;
+    height: 200px;
+}
+.head img{
+    width: 100%;
+    height: 200px;
+}
+
+
+/*头部右上方搭建*/
+.headright{
+    position: relative;
+    float: right;
+    z-index: 1;
+    width: 42%;
+    top: -200px;
+    right: 30px;
+}
+.headright ul li{
+    float: left;
+    cursor: pointer;
+    margin:15px;
+    margin-top: 10px;
+    color: white;
+    font-weight: lighter;
+    font-size: 17px;
+    font-family: 宋体;
+}
+
+/*搜索栏搭建*/
+.textinput{
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border: none;
+    border-bottom-left-radius: 0.4em;
+    border-top-left-radius: 0.4em;
+    padding-left: 10px;
+    padding-top: 1px;
+    background-color: rgba(255,255,255,0.5);
+}
+.searchbtn{
+    margin-left: 5px;
+    height: 30px;
+    width: 50px;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 5px;
+    font-size: 17px;
+    color:rgba(255,255,255,0.5);
+    background-color: #4C88AD;
+    cursor: pointer;
+}
+
+/*导航栏的搭建*/
+.back{
+    background-color: #084466;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    top: 1px;
+}
+.top-nav{
+    width: 100%;
+    height: 60px;
+    background-color: #084466;
+    margin: 0 auto;
+    position: absolute;
+    top: 201px;
+}
+.top-nav .top-nav-ul{
+    margin: 0 auto;
+    width: 1200px;
+}
+.top-nav .top-nav-ul .top-nav-ul-li{
+    float: left;
+    font-size: 18px;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    left:5%;
+    width: 120px;
+}
+.top-nav .top-nav-ul .top-nav-ul-li .top-nav-ul-li-a{
+    display: block;
+    padding: 17.5px 10%;
+}
+.top-nav .top-nav-ul .top-nav-ul-li .top-nav-ul-li-a:hover{
+    background-color: #0594C9;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+/*部门介绍下拉菜单的搭建*/
+.second-div{
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.second-div .second-div-ul li a{
+    display: block;
+    padding: 0;
+    width: 220px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #084466;
+}
+.second-div .second-div-ul li{
+    text-align: center;
+    font-size: 15px;
+}
+.second-div .second-div-ul li a:hover{
+    background-color: #0594C9;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*党派团体下拉菜单的搭建*/
+.third-div{
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.third-div .third-div-ul li a{
+    display: block;
+    padding: 0;
+    width: 220px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #084466;
+}
+.third-div .third-div-ul li{
+    text-align: center;
+    font-size: 15px;
+}
+.third-div .third-div-ul li a:hover{
+    background-color: #0594C9;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*人大政协下拉菜单的搭建*/
+.forth-div{
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.forth-div .forth-div-ul li a{
+    display: block;
+    padding: 0;
+    width: 220px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #084466;
+}
+.forth-div .forth-div-ul li{
+    text-align: center;
+    font-size: 15px;
+}
+.forth-div .forth-div-ul li a:hover{
+    background-color: #0594C9;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*建言献策下拉菜单的搭建*/
+.fifth-div{
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.fifth-div .fifth-div-ul li a{
+    display: block;
+    padding: 0;
+    width: 220px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #084466;
+}
+.fifth-div .fifth-div-ul li{
+    text-align: center;
+    font-size: 15px;
+}
+.fifth-div .fifth-div-ul li a:hover{
+    background-color: #0594C9;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*政策法规下拉菜单的搭建*/
+.sixth-div{
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.sixth-div .sixth-div-ul li a{
+    display: block;
+    padding: 0;
+    width: 220px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #084466;
+}
+.sixth-div .sixth-div-ul li{
+    text-align: center;
+    font-size: 15px;
+}
+.sixth-div .sixth-div-ul li a:hover{
+    background-color: #0594C9;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*民族宗教下拉菜单的搭建*/
+.seventh-div{
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.seventh-div .seventh-div-ul li a{
+    display: block;
+    padding: 0;
+    width: 220px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #084466;
+}
+.seventh-div .seventh-div-ul li{
+    text-align: center;
+    font-size: 15px;
+}
+.seventh-div .seventh-div-ul li a:hover{
+    background-color: #0594C9;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*下载专区下拉菜单的搭建*/
+.eigth-div{
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.eigth-div .eigth-div-ul li a{
+    display: block;
+    padding: 0;
+    width: 220px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #084466;
+}
+.eigth-div .eigth-div-ul li{
+    text-align: center;
+    font-size: 15px;
+}
+.eigth-div .eigth-div-ul li a:hover{
+    background-color: #0594C9;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*联系我们下拉菜单的搭建*/
+.ninth-div{
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+.ninth-div .ninth-div-ul li a{
+    display: block;
+    padding: 0;
+    width: 220px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #084466;
+}
+.ninth-div .ninth-div-ul li{
+    text-align: center;
+    font-size: 15px;
+}
+.ninth-div .ninth-div-ul li a:hover{
+    background-color: #0594C9;
+    font-weight: 600;
+    font-size: 16px;
+}

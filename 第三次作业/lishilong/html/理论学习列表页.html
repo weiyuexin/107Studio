@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <mata charst="utf-8">
+        <title>理论学习列表页</title>
+        <link rel="stylesheet" type="text/css" href="../css/公用.css">
+        <link rel="stylesheet" type="text/css" href="../css/列表页公用.css">
+        <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/公用.js"></script>
+    </head>
+    <body>
+
+
+        <!--头部的搭建-->
+        <div class="head">
+            <img src="../image/top-bj2.gif">
+
+            <div class="headright">
+                <ul>
+                    <li>设为首页</li>
+                    <li>|</li>
+                    <li>加入收藏</li>
+                    <input type="text" placeholder="请输入搜索关键字" class="textinput">
+                    <input type="button" value="搜索" class="searchbtn">
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!--导航栏的搭建-->
+        
+        <div class="back"></div>
+        <div class="top-nav">
+            <ul class="top-nav-ul">
+                <li class="top-nav-ul-li"><a class="top-nav-ul-li-a" href="../统战部首页.html" id="first">首页</a></li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="second">部门介绍</a>
+
+                    <!--部门介绍下拉菜单的搭建-->
+                       <div class="second-div">
+                            <ul class="second-div-ul">
+                                <li><a href="#">工作职责</a></li>
+                                <li><a href="#">机构及人员</a></li>
+                                <li><a href="#">领导人员</a></li>
+                            </ul>
+                        </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="third">党派团体</a>
+
+                    <!--党派团体下拉菜单的搭建-->
+                    <div class="third-div">
+                        <ul class="third-div-ul">
+                            <li><a href="#">民革河南大学支部</a></li>
+                            <li><a href="#">民盟河南大学委员会</a></li>
+                            <li><a href="#">民进河南大学总支委员会</a></li>
+                            <li><a href="#">民建河南大学总支委员会</a></li>
+                            <li><a href="#">农工党河南大学委员会</a></li>
+                            <li><a href="#">九三学社河南大学委员会</a></li>
+                            <li><a href="#">河南大学台联</a></li>
+                            <li><a href="#">河南大学侨联</a></li>
+                            <li><a href="#">河南大学知联会</a></li>
+                            <li><a href="#">河南大学留联会</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="forth">人大政协</a>
+
+                     <!--人大政协下拉菜单的搭建-->
+                     <div class="forth-div">
+                        <ul class="forth-div-ul">
+                            <li><a href="#">人大政协</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="fifth">建言献策</a>
+
+                    <!--建言献策下拉菜单的搭建-->
+                    <div class="fifth-div">
+                        <ul class="fifth-div-ul">
+                            <li><a href="#">建言献策</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="sixth">政策法规</a>
+
+                    <!--政策法规下拉菜单的搭建-->
+                    <div class="sixth-div">
+                        <ul class="sixth-div-ul">
+                            <li><a href="#">理论经纬</a></li>
+                            <li><a href="#">学习资料</a></li>
+                            <li><a href="#">会议纪要</a></li>
+                            <li><a href="#">工作记事</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="#" id="seventh">民族宗教</a>
+
+                    <!--民族宗教下拉菜单的搭建-->
+                    <div class="seventh-div">
+                        <ul class="seventh-div-ul">
+                            <li><a href="#">民族工作</a></li>
+                            <li><a href="#">宗教工作</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="../html/下载专区.html" id="eigth">下载专区</a>
+
+                    <!--下载专区下拉菜单的搭建-->
+                    <div class="eigth-div">
+                        <ul class="eigth-div-ul">
+                            <li><a href="../html/下载专区.html">资料下载</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="top-nav-ul-li">
+                    <a class="top-nav-ul-li-a" href="../html/联系我们.html" id="ninth">联系我们</a>
+
+                    <!--联系我们下拉菜单的搭建-->
+                    <div class="ninth-div">
+                        <ul class="ninth-div-ul">
+                            <li><a href="../html/联系我们.html">留言板</a></li>
+                            <li><a href="#">微博</a></li>
+                            <li><a href="#">联系方式</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--内容区搭建-->
+    <div class="content">
+
+        <!--leftlist-->
+        <div class="leftlistdiv">
+            <h2 id="h21">理论学习</h2>
+            <div class="firstdiv">
+                <ul class="firstdivul">
+                    <li><a href="#">理论经纬</a></li>
+                    <li><a href="#">学习资料</a></li>
+                    <li><a href="#">会议纪要</a></li>
+                    <li><a href="#">工作记事</a></li>
+                </ul>
+            </div>
+            <h2 id="h22">校园风光</h2>
+            <div class="seconddiv">
+                <img src="../image/nature4.jpg">
+            </div>
+            <h2 id="h23">相关链接</h2>
+            <div class="thirddiv">
+                <ul class="thirddivul">
+                    <li><a href="#">中共中央统一战线工作部</a></li>
+                    <li><a href="#">中共河南省委统战部</a></li>
+                    <li><a href="#">开封市委统战部</a></li>
+                    <li><a href="#">河南大学</a></li>
+                    <li><a href="#">"河大统战"杂志</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!--右侧内容-->
+        <div class="rightcontent">
+            <div class="topdiv">
+            <img src="../image/icon-index.png">
+            <span>当前位置： <a href="../统战部首页.html">首页</a> > <a href="#">理论学习</a> ></span>
+        </div>
+            <div class="list">
+                <ul>
+                    <a href="../html/理论学习正文一.html"><li><img src="../image/links_title.gif">汪洋在宁夏调研时强调 推动新时代民族工作高质量发展确<span>2021-05-20</span></li></a>
+                    <a href="../html/理论学习正文二.html"><li><img src="../image/links_title.gif">尤权河南调研：深入贯彻党的重大决策部署 维护民族宗教<span>2021-05-20</span></li></a>
+                    <a href="../html/理论学习正文三.html"><li><img src="../image/links_title.gif">《河南日报》张先飞:青年中国的诞生<span>2021-05-06</span></li></a>
+                    <a href="../html/理论学习正文四.html"><li><img src="../image/links_title.gif">100句名言回顾党史100年<span>2021-04-23</span></li></a>
+                    <a href="../html/理论学习正文一.html"><li><img src="../image/links_title.gif">孙守刚：从百年党史中领悟统战法宝作用<span>2021-04-09</span></li></a>
+                    <a href="../html/理论学习正文二.html"><li><img src="../image/links_title.gif">汪洋：推动新时代统战工作高质量发展<span>2021-04-09</span></li></a>
+                    <a href="../html/理论学习正文三.html"><li><img src="../image/links_title.gif">习近平：在党史学习教育动员大会上的讲话<span>2021-04-06</span></li></a>
+                    <a href="../html/理论学习正文三.html"><li><img src="../image/links_title.gif">共商国是！中央政治局常委同志的“统战声音”<span>2021-03-09</span></li></a>
+                    <a href="../html/理论学习正文四.html"><li><img src="../image/links_title.gif">孙守刚：学好用好《中国共产党统一战线工作条例》 解决<span>2021-02-12</span></li></a>
+                    <a href="../html/理论学习正文一.html"><li><img src="../image/links_title.gif">【重磅】与党外人士共迎新春 习近平总书记深情寄语<span>2021-02-04</span></li></a>
+                </ul>
+            </div>
+
+
+            <!--页脚搭建-->
+            <div class="pagenum">
+                <dd><pre>共102条   1/11</pre></dd>
+                <div class="button">
+                <button>首页</button>
+                <button>上页</button>
+                <button class="heihei">下页</button>
+                <button class="heihei">尾页</button>
+                </div>
+                <div class="jumpto">
+                    <button>转到</button>
+                    <input>
+                    <span>页</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--footer的搭建-->
+    <div class="footer">
+        <div class="gap"></div>
+
+        <div class="maker">
+            <dd>Copyright © 2019 河南大学党委统战部 技术支持 <span>河南大学</span> <span>107网站工作室</span> <span>管理后台</span></dd>
+            <dd>地址：中国 河南 开封.明伦街/金明大道 邮编：475001/475004 电话：0371-265666428</dd>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>

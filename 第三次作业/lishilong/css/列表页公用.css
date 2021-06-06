@@ -1,0 +1,207 @@
+.content{
+    width: 1200px;
+    height: 717px;
+    margin: 0 auto;
+}
+
+
+/*leftlist*/
+.leftlistdiv{
+    width: 253px;
+    position: relative;
+    left: -10px;
+    top: 30px;
+    background-color: #F4F4F4;
+}
+.leftlistdiv img{
+    cursor: pointer;
+    margin-top: 2px;
+}
+.leftlistdiv .seconddiv{
+    border-top: 2px #999999 dotted;
+}
+.leftlistdiv .thirddiv{
+    border-top: 2px #999999 dotted;
+}
+.leftlistdiv .firstdiv{
+    width: 100%;
+    border-top: #999999 2px dotted;
+}
+.leftlistdiv h2{
+    color: #990000;
+    font-size: 21px;
+    width: 253px;
+    height: 35px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.leftlistdiv li a{
+    color: black;
+}
+.leftlistdiv li{
+    padding-top: 10px;
+    height: 30px;
+    width: 223px;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.leftlistdiv li:hover a{
+    color: white;
+    font-weight: 600;
+}
+.leftlistdiv li:hover{
+    background-color: #990000;
+}
+
+/*右侧内容区*/
+.rightcontent{
+    width: 900px;
+    height: 560px;
+    background-color: white;
+    position: relative;
+    left: 270px;
+    top: -676.5px;
+}
+.rightcontent .topdiv{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px #999999 dashed;
+}
+.rightcontent .topdiv img{
+    width: 32px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.rightcontent .topdiv span{
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    top: 8px;
+}
+.rightcontent .topdiv span a{
+    font-size: 18px;
+    color: black;
+}
+.rightcontent .list{
+    position: relative;
+    width: 870px;
+    left: 30px;
+    top: 20px;
+}
+.rightcontent .list a{
+    color: black;
+}
+.rightcontent .list a li{
+    height: 40px;
+    width: 100%;
+}
+.rightcontent .list a li span{
+    position: absolute;
+    right: 30px;
+    color: #808080;
+}
+.rightcontent .list a li img{
+    width: 5px;
+    height: 5px;
+    margin-bottom: 3px;
+    margin-right: 6px;
+}
+.rightcontent .list a:hover{
+    color:  rgb(199, 6, 6);
+}
+.rightcontent .list a:hover span{
+    color: #808080;
+}
+
+/*页面页数*/
+.pagenum{
+    width: 500px;
+    height: 30px;
+    position: relative;
+    left: 400px;
+    top: 50px;
+}
+.pagenum dd{
+    font-size: 12px;
+    padding-top: 5px;
+}
+.pagenum .button{
+    position: relative;
+    left: 150px;
+    top: -20px;
+
+}
+.pagenum .button .heihei{
+    color: black;
+}
+.pagenum .button button{
+    background-color: white;
+    outline: none;
+    font-size: 10px;
+    color: #CCCCCC;
+    border: 1px solid #AFD5F5;
+    cursor: pointer;
+    width: 30px;
+}
+.pagenum .jumpto{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 350px;
+    top: -40px;
+}
+.pagenum .jumpto button{
+    background: -webkit-gradient(linear,0 0 , 0 100%,from(white),to(#AFD5F5));
+    outline: none;
+    font-size: 10px;
+    color: black;
+    border: 1px solid #AFD5F5;
+    cursor: pointer;
+    width: 30px;
+    height: 22px;
+}
+.pagenum .jumpto input{
+    width: 15px;
+    height: 20px;
+    border-radius: 0.2em;
+    outline: none;
+    border: 0.5px solid;
+    padding-left: 10px;
+}
+.pagenum .jumpto span{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/*footer的搭建*/
+.footer{
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer .gap{
+    width: 90%;
+    top: 20px;
+    height: 30px;
+    background-color: #04628B;
+    position: relative;
+    left: 5%;
+}
+.maker{
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+.maker dd{
+    text-align: center;
+}
+.maker span{
+    cursor: pointer;
+}
+.maker dd span:hover{
+    color: #A1271D;
+}

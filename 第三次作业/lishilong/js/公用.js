@@ -1,0 +1,245 @@
+
+
+/**头部右上方搜索框效果实现 */
+$(document).ready(function(){
+    $(".textinput").mouseenter(function(){
+        $(this).css("background-color","white")
+        $(".searchbtn").css("background-color","#084466")
+    })
+    $(".textinput").mouseleave(function(){
+        $(this).css("background-color","rgba(255,255,255,0.5)")
+        $(".searchbtn").css("background-color","#4C88AD")
+    })
+    $(".searchbtn").mouseenter(function(){
+        $(this).css("background-color","#084466")
+        $(".textinput").css("background-color","white")
+    })
+    $(".searchbtn").mouseleave(function(){
+        $(this).css("background-color","#4C88AD")
+        $(".textinput").css("background-color","rgba(255,255,255,0.5)")
+    })
+})
+
+/**部门介绍下拉菜单实现 */
+$(document).ready(function(){
+    $("#second").mouseenter(function(){
+        $(".second-div").css("display","block")
+        $(this).css("font-weight","600")
+        $(this).css("font-size","19px")
+        $("#second").css("background-color","#0594C9")
+    })
+    $("#second").mouseleave(function(){
+        $(".second-div").css("display","none")
+        $(this).css("font-weight","normal")
+        $(this).css("font-size","18px")
+        $("#second").css("background-color","#084466")
+    })
+    $(".second-div").mouseenter(function(){
+        $(this).css("display","block")
+        $("#second").css("font-weight","600")
+        $("#second").css("font-size","19px")
+        $("#second").css("background-color","#0594C9")
+    })
+    $(".second-div").mouseleave(function(){
+        $(this).css("display","none")
+        $("#second").css("font-weight","normal")
+        $("#second").css("font-size","18px")
+        $("#second").css("background-color","#084466")
+    })
+})
+
+/**党派团体下拉菜单实现 */
+$(document).ready(function(){
+    $("#third").mouseenter(function(){
+        $(".third-div").css("display","block")
+        $(this).css("font-weight","600")
+        $(this).css("font-size","19px")
+        $("#third").css("background-color","#0594C9")
+    })
+    $("#third").mouseleave(function(){
+        $(".third-div").css("display","none")
+        $(this).css("font-weight","normal")
+        $(this).css("font-size","18px")
+        $("#third").css("background-color","#084466")
+    })
+    $(".third-div").mouseenter(function(){
+        $(this).css("display","block")
+        $("#third").css("font-weight","600")
+        $("#third").css("font-size","19px")
+        $("#third").css("background-color","#0594C9")
+    })
+    $(".third-div").mouseleave(function(){
+        $(this).css("display","none")
+        $("#third").css("font-weight","normal")
+        $("#third").css("font-size","18px")
+        $("#third").css("background-color","#084466")
+    })
+})
+
+/**人大政协下拉菜单实现 */
+$(document).ready(function(){
+    $("#forth").mouseenter(function(){
+        $(".forth-div").css("display","block")
+        $(this).css("font-weight","600")
+        $(this).css("font-size","19px")
+        $("#forth").css("background-color","#0594C9")
+    })
+    $("#forth").mouseleave(function(){
+        $(".forth-div").css("display","none")
+        $(this).css("font-weight","normal")
+        $(this).css("font-size","18px")
+        $("#forth").css("background-color","#084466")
+    })
+    $(".forth-div").mouseenter(function(){
+        $(this).css("display","block")
+        $("#forth").css("font-weight","600")
+        $("#forth").css("font-size","19px")
+        $("#forth").css("background-color","#0594C9")
+    })
+    $(".forth-div").mouseleave(function(){
+        $(this).css("display","none")
+        $("#forth").css("font-weight","normal")
+        $("#forth").css("font-size","18px")
+        $("#forth").css("background-color","#084466")
+    })
+})
+
+/**建言献策下拉菜单实现 */
+$(document).ready(function(){
+    $("#fifth").mouseenter(function(){
+        $(".fifth-div").css("display","block")
+        $(this).css("font-weight","600")
+        $(this).css("font-size","19px")
+        $("#fifth").css("background-color","#0594C9")
+    })
+    $("#fifth").mouseleave(function(){
+        $(".fifth-div").css("display","none")
+        $(this).css("font-weight","normal")
+        $(this).css("font-size","18px")
+        $("#fifth").css("background-color","#084466")
+    })
+    $(".fifth-div").mouseenter(function(){
+        $(this).css("display","block")
+        $("#fifth").css("font-weight","600")
+        $("#fifth").css("font-size","19px")
+        $("#fifth").css("background-color","#0594C9")
+    })
+    $(".fifth-div").mouseleave(function(){
+        $(this).css("display","none")
+        $("#fifth").css("font-weight","normal")
+        $("#fifth").css("font-size","18px")
+        $("#fifth").css("background-color","#084466")
+    })
+})
+
+/**政策法规下拉菜单实现 */
+$(document).ready(function(){
+    $("#sixth").mouseenter(function(){
+        $(".sixth-div").css("display","block")
+        $(this).css("font-weight","600")
+        $(this).css("font-size","19px")
+        $("#sixth").css("background-color","#0594C9")
+    })
+    $("#sixth").mouseleave(function(){
+        $(".sixth-div").css("display","none")
+        $(this).css("font-weight","normal")
+        $(this).css("font-size","18px")
+        $("#sixth").css("background-color","#084466")
+    })
+    $(".sixth-div").mouseenter(function(){
+        $(this).css("display","block")
+        $("#sixth").css("font-weight","600")
+        $("#sixth").css("font-size","19px")
+        $("#sixth").css("background-color","#0594C9")
+    })
+    $(".sixth-div").mouseleave(function(){
+        $(this).css("display","none")
+        $("#sixth").css("font-weight","normal")
+        $("#sixth").css("font-size","18px")
+        $("#sixth").css("background-color","#084466")
+    })
+})
+
+/**政策法规下拉菜单实现 */
+$(document).ready(function(){
+    $("#seventh").mouseenter(function(){
+        $(".seventh-div").css("display","block")
+        $(this).css("font-weight","600")
+        $(this).css("font-size","19px")
+        $("#seventh").css("background-color","#0594C9")
+    })
+    $("#seventh").mouseleave(function(){
+        $(".seventh-div").css("display","none")
+        $(this).css("font-weight","normal")
+        $(this).css("font-size","18px")
+        $("#seventh").css("background-color","#084466")
+    })
+    $(".seventh-div").mouseenter(function(){
+        $(this).css("display","block")
+        $("#seventh").css("font-weight","600")
+        $("#seventh").css("font-size","19px")
+        $("#seventh").css("background-color","#0594C9")
+    })
+    $(".seventh-div").mouseleave(function(){
+        $(this).css("display","none")
+        $("#seventh").css("font-weight","normal")
+        $("#seventh").css("font-size","18px")
+        $("#seventh").css("background-color","#084466")
+    })
+})
+
+/**下载专区下拉菜单实现 */
+$(document).ready(function(){
+    $("#eigth").mouseenter(function(){
+        $(".eigth-div").css("display","block")
+        $(this).css("font-weight","600")
+        $(this).css("font-size","19px")
+        $("#eigth").css("background-color","#0594C9")
+    })
+    $("#eigth").mouseleave(function(){
+        $(".eigth-div").css("display","none")
+        $(this).css("font-weight","normal")
+        $(this).css("font-size","18px")
+        $("#eigth").css("background-color","#084466")
+    })
+    $(".eigth-div").mouseenter(function(){
+        $(this).css("display","block")
+        $("#eigth").css("font-weight","600")
+        $("#eigth").css("font-size","19px")
+        $("#eigth").css("background-color","#0594C9")
+    })
+    $(".eigth-div").mouseleave(function(){
+        $(this).css("display","none")
+        $("#eigth").css("font-weight","normal")
+        $("#eigth").css("font-size","18px")
+        $("#eigth").css("background-color","#084466")
+    })
+})
+
+/**联系我们下拉菜单实现 */
+$(document).ready(function(){
+    $("#ninth").mouseenter(function(){
+        $(".ninth-div").css("display","block")
+        $(this).css("font-weight","600")
+        $(this).css("font-size","19px")
+        $("#ninth").css("background-color","#0594C9")
+    })
+    $("#ninth").mouseleave(function(){
+        $(".ninth-div").css("display","none")
+        $(this).css("font-weight","normal")
+        $(this).css("font-size","18px")
+        $("#ninth").css("background-color","#084466")
+    })
+    $(".ninth-div").mouseenter(function(){
+        $(this).css("display","block")
+        $("#ninth").css("font-weight","600")
+        $("#ninth").css("font-size","19px")
+        $("#ninth").css("background-color","#0594C9")
+    })
+    $(".ninth-div").mouseleave(function(){
+        $(this).css("display","none")
+        $("#ninth").css("font-weight","normal")
+        $("#ninth").css("font-size","18px")
+        $("#ninth").css("background-color","#084466")
+    })
+})
