@@ -1,0 +1,34 @@
+body{
+    min-width: 200px;
+}
+.title{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border: 1px rgb(149, 139, 212) solid;
+    background-color: rgb(226, 242, 250);
+}
+.zhuti{
+    width: 100%;
+    min-width: 200px;
+    height: 400px;
+    background-color: rgb(226, 222, 220);
+}
+.zhuti>div{
+    margin: 0px 1%;
+    width: 98%;
+    height: 380px;
+    border: 1px rgb(149, 139, 212) solid;
+    background-color: #fff;
+}
+.zhuti>div>div,input{
+    float: left;
+    margin: 0 10px;
+}
+.weibu{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+}

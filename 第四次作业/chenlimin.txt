@@ -1,0 +1,16 @@
+git:
+mkdir   :     创建文件夹
+cd        :     转换目录
+git init   :      创建新的git仓库
+git clone :     创建一个本地仓库的克隆版本
+git add  :       添加到缓存区
+git commit :   添加到本地仓库
+git push :       推送到远端仓库
+git remote add :    可为远端仓库的地址设置一个好记的名字
+git branch :      创建新的分支
+git checkout <> :   切换分支
+
+
+
+
+git pull :   更新你的本地仓库至最新改动

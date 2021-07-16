@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-width: 1300px;
+    max-width: 100%;
+    background-color: #fff;
+}
+.kongkuang{
+    height: 0px;
+    clear: both;
+}
+.header{
+    position: relative;
+    height: 200px;
+}
+.header>img{
+    width: 100%;
+    height: 200px;
+}
+.shuru{
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    top: 10px;right: 5%;
+    z-index: 2;
+}
+.header>.shuru>div{
+    float: left;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: '宋体';
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+.header>.shuru>.z1{
+    width: 100px;
+    height: 30px;
+}
+.header>.shuru>.z1>a{
+    text-decoration: none;
+    font-family: '宋体';
+    color: #fff;
+}
+.header>.shuru>.shugang{
+    margin: 0 10px;
+    width: 8px;
+    height: 30px;
+}
+.header>.shuru>div>input{
+    width: 180px;
+    height: 30px;
+    text-indent: 15px;
+    background-color: #AFD3EB;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+.header>.shuru>div>button{
+    width: 60px;
+    height: 30px;
+    color: #fff;
+    background-color: #4C88AE;
+    border: none;
+    outline: none;
+}
+.header>.shuru>#sousuo:hover input{
+    background-color: white;
+}
+.header>.shuru>#sousuo:hover button{
+    background-color: black;
+    cursor: pointer;
+}
+
+/*        */
+/* 导航栏 */
+/*       */
+
+
+#banner{
+    width: 100%;
+    height: 50px;
+    min-width: 1300px;
+    font-size: 18px;
+    background-color: #084466;
+    margin: 0;
+    font-weight: 400;
+    position: relative;
+}
+#banner>.wai{
+    width: 1300px;
+    height: 50px;
+    margin: 0 auto;
+    list-style: none;
+    color: #fff;
+    position: relative;
+}
+#banner>.wai>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+#banner>.wai>li{
+    width: 100px;
+    float: left;
+    padding: 0px 20px;
+    line-height: 50px;
+    text-align: center;
+    z-index: 4;
+    position: relative;
+}
+#banner>.wai>li>.nei{
+    width: 200px;
+    display: none;
+    z-index: 4;
+    position: absolute;
+    top: 50px;left: 0px;
+}
+.nei>li{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+    font-size: 13px;
+    background-color: #084466;
+    cursor: pointer;
+}
+
+/*      */
+/* 主体 */
+/*      */
+
+#conTent{
+    width: 1300px;
+    height: 780px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#conTent>.conF{
+    width: 220px;
+    height: 790px;
+    background-color: #f4f4f4;
+    float: left;
+}
+#conTent>.conF>div>div{
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 30px;
+    font-size: 15px;
+}
+#conTent>.conF>div>div>a{
+    display: block;
+    width: 220px;
+    height: 40px;
+    text-decoration: none;
+    color: #000;
+}
+#conTent>.conF>div>div>a:hover{
+    background-color: red;
+    font-weight: 600;
+    color: #fff;
+}
+#conTent>.conF>div>.hongB{
+    font-size: 20px;
+    color: #900;
+    font-weight: 800;
+    border-bottom: 2px #999 dotted;
+}
+#conTent>.conF>div>span{
+    display: block;
+    width: 220px;
+    height: 200px;
+    margin: 5px 0;
+}
+#conTent>.conF>div>span>a>img{
+    width: 220px;
+    height: 200px;text-indent: 0px;
+}
+
+
+#conTent>.conS{
+    width: 970px;
+    height: 550px;
+    background-color: #fff;
+    float: left;
+    margin: 0 25px;
+}
+#conTent>.conS>.conSf{
+    width: 970px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    border-bottom: 2px #084466 dotted;
+}
+#conTent>.conS>.conSf>img{
+    display: block;
+    width: 30px;
+    height: 28px;
+    float: left;
+    position: absolute;
+    top: 11px;left: 6px;
+}
+#conTent>.conS>.conSf>span{
+    display: block;
+    font-size: 20px;
+    float: left;
+    position: absolute;
+    top: 0px;left: 45px;
+}
+#conTent>.conS>.conSf>span>a{
+    text-decoration: none;
+    color: #000;
+}
+.conSs>h4{
+    width: 970px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.conSs>div{
+    width: 920px;
+    margin: 20px auto;
+    text-indent: 2em;
+    font-size: 20px;
+}
+.conSs>.time{
+    text-align: center;
+    font-size: 12px;
+}
+.conSs>div>span{
+    color: red;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+/* 尾部 */
+/*  */
+#weiBu{
+    width: 90%;
+    min-width: 900px;
+    height: 140px;
+    margin: 20px auto;
+}
+#weiBu>.weiBu1{
+    width: 100%;
+    height: 35px;
+    background-color: #04628D;
+}
+#weiBu>.weiBu2{
+    width: 100%;
+    height: 105px;
+    text-align: center;
+    text-decoration: none;
+    margin: 23px 0 0 0;
+}
+#weiBu>.weiBu2>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+#weiBu>.weiBu2>span{
+    font-size: 14px;
+}
+#weiBu>.weiBu2>a:hover {
+    color: rgb(158,3,0);
+}
