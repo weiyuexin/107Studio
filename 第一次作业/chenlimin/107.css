@@ -1,0 +1,163 @@
+body{margin: 0;}
+/* 头部开始 */
+/* .az{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+} */
+.nav
+	{
+		width:100%;
+		height:50px;
+		border-bottom:1px solid #E1E1E1;
+		margin: 0;
+	}
+	.wrap
+		{
+			width:80%;
+			margin:0 auto;
+			
+		}
+		.nav-left
+			{
+				width:70%;
+				height:50px;
+				/* background-color: red; */
+				float: left;
+				
+			}
+			.logo{float: left;margin:0 15px;}
+			p{float: left;margin:0 15px;}
+			li{list-style: none;float: left;margin:0 5%;}
+			.nav>.wrap>.nav-left>div{float: left;width: 10%; margin: 0 5px;line-height: 50px;}
+			.nav a{color: black;}
+			.nav a:link{text-decoration: none;}
+		.nav-right
+			{
+				width: 30%;
+				height: 50px;
+				/* background-color: aqua; */
+				float: left;
+			}
+			.nav-right li{float: right;}
+			.button1{color: white;background-color: #29CEAD;padding:4px 8px;border: none;margin: -4px;}
+/* 头部结束 */
+/* 主体开始 */
+.bod
+	{
+		width: 100%;
+		height: 800px;
+		margin: 0;
+		/* background-color: antiquewhite; */
+	}
+	
+	.d01{width: 60%;
+		height: 100px;
+		margin: 0;}
+	.d1
+		{
+			width: 60%;
+			height: 400px;
+			/* background-color: #000000; */
+			margin:0 auto;
+			border: 1px solid #E1E1E1;
+		}
+		.p1
+			{
+				width: 60%;
+				padding-top: 20px;
+				margin: 0 auto;
+				font-size: 1.5em;
+				font-weight: 500;
+			}
+		.p2
+			{
+				width: 60%;
+				color: #29CEAD;
+				margin: 5px auto 12px;
+				font-size: 0.5em;
+				font-weight: 500;
+				
+				
+			}
+			.p2_{float: right;}
+			.bod a{text-decoration: none;color: #29CEAD;}
+			form{margin: 10px auto;}
+	.d2
+		{
+			width: 60%;
+			height: 200px;
+			background-color: #F8F9F9;
+			margin: 0 auto;
+			border: 1px solid #E1E1E1;
+			border-top: none;
+		}
+		.wrap2{
+			width: 60%;
+			margin: 0 auto;
+		}
+	.d02{width: 45%;
+		height: 100px;
+		margin: 0;
+		}
+		.p3
+			{
+				width: 60%;
+				margin: 40px auto 0;
+			}
+	.input1{height: 40px;width: 100%;margin: 10px auto;border: none;background-color: #F8F8F8;}
+	.button2
+		{
+			height: 40px;width: 100%;margin: 10px 0;border: none;background-color: #1BBD9D;color: white;
+		}
+		.p4{float: left;margin: 0 20px 0;}
+		.p5{float: right;margin: 0 20px 0 0;}
+	.san{color: #29CEAD;padding: 20px ;}
+	.i1{float: left;margin: 0 auto;}
+	.i2{float: right;margin: 0 auto;}
+	span{display: block;float: left;
+	}
+	.i2 span{margin: 0 0 0 -5px;}
+/* 主体结束 */
+
+
+
+
+/* 尾部开始 */
+#end
+	{
+		width: 100%;
+		height: 400px;
+		background-color: #2F2F2F;
+	}
+	
+	.wrap3{width: 80%;height: 300px; margin: 0 auto;padding: 50px 0;}
+	.end1{border-bottom: 1px solid #807F7D;padding: 10px 0;height: 220px;}
+	.shang1{width: 25%;margin: 0; float: left;}
+	.xian1{margin: 10px auto;}
+	
+	
+	.biao{border: none;color: #807F7D;text-align: left;}
+	.zi{color: #807F7D;}
+	.ab{width: 25%; float: left;}
+
+
+	th{color: white;}
+	.end0{width: 80%;}
+/* 尾部结束 */
+.home-tool-bar {
+    position: fixed;
+    bottom: 170px;
+    right: 20px;
+    width: 3.5%;
+	height: 180px;
+	background-color: #00C2F0;
+	color: white;
+}
+.tool{margin: 15px auto;
+width: 80%;}
+.home-tool-bar>.tool>p{text-align: center;text-size: 4;}
+.home{padding: 1px auto;}
+
